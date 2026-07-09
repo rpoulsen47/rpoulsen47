@@ -14,7 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rpoulsen47/)
 
 :mountain: Hey! I'm Ryan, a student at the University of Richmond majoring in Environmental Studies and Geography in the Class of 2027.
 
