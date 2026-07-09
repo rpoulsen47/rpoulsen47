@@ -16,12 +16,10 @@ Here are some ideas to get you started:
 -->
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rpoulsen47/)
 
+:mountain: Hey! I'm Ryan, a student at the University of Richmond majoring in Environmental Studies and Geography in the Class of 2027.
 
+:maple_leaf: In addition to classes at school, I work as an undergraduate student researcher with Dr. Stephanie Spera investigating the effects of climate change on the timing of Fall foliage in National Parks across the Eastern US.
 
-Hey! I'm Ryan, a student at the University of Richmond majoring in Environmental Studies and Geography in the Class of 2027.
+:artificial_satellite: This summer, I am a participant in the NASA EarthRISE Developers Academy at Colorado location in Fort Collins. I'm working on a project mapping aspen forest change after drought and wildfire!
 
-:artificial_satellite: I'm currently a participant in the NASA EarthRISE Developers Academy out of the Colorado location in Fort Collins. I'm working on a project mapping aspen forest change after drought and wildfire!
-
-Currently working as an undergraduate student researcher with Dr. Stephanie Spera in the UR Geography, Sustainability, and Environment department investigating the effects of climate change on the timing of Fall foliage in National Parks across the Eastern US.
-
-When not behind the computer in the UR Spatial Analysis Lab, I'm likely outdoors hiking, biking, swimming, or hunting for the best landscape and bird photos.
+:bike: When not behind the computer in the UR Spatial Analysis Lab, I'm likely outdoors hiking or birdwatching, taking photos on my film camera, or training for a triathlon.
