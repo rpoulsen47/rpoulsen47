@@ -28,7 +28,7 @@ const CONFIG = {
   email:    "ryan.poulsen47@gmail.com",
   github:   "https://github.com/rpoulsen47",
   linkedin: "https://linkedin.com/in/rpoulsen47",
-  website:  "ryanpoulsen.net",   // leave as "" to hide
+  website:  "www.ryanpoulsen.net",   // leave as "" to hide
 
   headshot: "images/headshot.svg",
 
@@ -39,8 +39,7 @@ const CONFIG = {
   // =========================================================
 
   shortBio: `Senior at the University of Richmond studying Geography
-             and Data Science, focused on open spatial data, community
-             cartography, and making maps that answer real questions.`,
+             and Environmental Studies.`,
 
 
   // =========================================================
@@ -79,8 +78,8 @@ const CONFIG = {
     {
       school: "University of Richmond",
       degree: "B.A., Geography & Data Science",
-      year:   "Expected May 2026",
-      note:   "Honors thesis on canopy equity in Richmond"
+      year:   "Expected May 2027",
+      note:   ""
     },
     // Add high school, study abroad, certificate programs, etc. here
     // {
@@ -100,14 +99,20 @@ const CONFIG = {
     {
       role:    "Undergraduate Research Fellow",
       org:     "Spatial Analysis Lab, University of Richmond",
-      years:   "2024 - present",
-      blurb:   "Lead a small team on ACS uncertainty analysis under Dr. Plaxco."
+      years:   "May 2024 - present",
+      blurb:   "Research on the effects of climate change on the timing of fall foliage under Dr. Stephanie A. Spera."
     },
     {
-      role:    "GIS Intern",
-      org:     "City of Richmond, Office of Sustainability",
-      years:   "Summer 2024",
-      blurb:   "Built tree-equity dashboards now used by neighborhood groups."
+      role:    "Landscape Ecology Intern",
+      org:     "Texas Parks and Wildlife",
+      years:   "Summer 2025",
+      blurb:   "Assisted in the updates to the statewide Ecological Mapping Systems landcover map."
+    },
+    {
+      role:    "Remote Sensing Analyst",
+      org:     "NASA EarthRISE Developers Academy",
+      years:   "Summer 2026",
+      blurb:   "Researching the effects of wildfire and drought on aspen forest extent and health."
     },
   ],
 
@@ -124,16 +129,8 @@ const CONFIG = {
     },
     {
       label: "Programming",
-      skills: ["Python", "R", "SQL", "JavaScript (basic)"]
-    },
-    {
-      label: "Web mapping",
-      skills: ["Leaflet", "MapLibre GL JS", "Mapbox Studio"]
-    },
-    {
-      label: "Data & databases",
-      skills: ["PostGIS", "Pandas", "GeoPandas", "Tableau"]
-    },
+      skills: ["Python", "R", "JavaScript (GEE)"]
+    }
   ],
 
 
