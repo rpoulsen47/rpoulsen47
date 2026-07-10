@@ -21,14 +21,14 @@ const CONFIG = {
   // BASICS — name, contact, headshot
   // =========================================================
 
-  name: "Jane Cartographer",
-  tagline: "GIS Analyst & Community-Engaged Cartographer",
+  name: "Ryan Poulsen",
+  tagline: "NASA ERDA Developer",
   location: "Richmond, Virginia",
 
-  email:    "jane.cartographer@example.com",
-  github:   "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  website:  "",   // leave as "" to hide
+  email:    "ryan.poulsen47@gmail.com",
+  github:   "https://github.com/rpoulsen47",
+  linkedin: "https://linkedin.com/in/rpoulsen47",
+  website:  "ryanpoulsen.net",   // leave as "" to hide
 
   headshot: "images/headshot.svg",
 
