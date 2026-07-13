@@ -30,7 +30,7 @@ const CONFIG = {
   linkedin: "https://linkedin.com/in/rpoulsen47",
   website:  "www.ryanpoulsen.net",   // leave as "" to hide
 
-  headshot: "images/headshot.svg",
+  headshot: "images/headshot.jpg",
 
 
   // =========================================================
