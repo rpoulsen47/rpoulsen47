@@ -1,5 +1,5 @@
 <!-- ## Hi there 👋
-
+<img src='images/headshot.png' align="right" height="139" />
 <!--
 **rpoulsen47/rpoulsen47** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
