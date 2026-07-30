@@ -48,25 +48,15 @@ const CONFIG = {
   // To split into paragraphs, use \n\n between them.
   // =========================================================
 
-  longBio: `I am a senior at the University of Richmond studying Geography
-            and Data Science. My work focuses on using open spatial data
-            to answer questions that communities are actually asking.
+  longBio: `I'm Ryan, a senior at the University of Richmond majoring in Environmental Studies and Geography in the Class of 2027. I enjoy making maps!
 
-            In 2024 I interned with the City of Richmond's Office of
-            Sustainability, where I built a series of tree-equity
-            dashboards now used by neighborhood groups to advocate for
-            plantings on underserved blocks. I have also worked on a
-            statistical analysis of margins of error in American
-            Community Survey data, a project I am co-authoring with
-            two faculty members at UR.
+            At school, I work as an undergraduate student research fellow with Dr. Stephanie Spera investigating the effects of climate change on the timing of Fall foliage in National Parks across the Eastern US.
 
-            Outside of GIS, I write a small newsletter about urban
-            history in the upper South, and I am slowly teaching
-            myself to make decent sourdough.
+            This summer, I am a participant in the NASA EarthRISE Developers Academy at Colorado location in Fort Collins. I'm working on a project mapping aspen forest change after drought and wildfire!
 
-            I am graduating in May 2026 and am looking for full-time
-            roles in spatial analysis, planning support, or applied
-            research.`,
+            In summer 2024, I was an intern with Texas Parks and Wildlife updaing the Texas Ecological Mapping systems landcover map.
+
+            When not troubleshooting code or making maps, I'm likely outdoors hiking or birdwatching, taking photos on my film camera, or training for a triathlon.`,
 
 
   // =========================================================
@@ -161,7 +151,7 @@ const CONFIG = {
                     redlined Richmond neighborhood, built with the Historic
                     Jackson Ward Association.`,
       tags:        ["ArcGIS Pro", "Python", "MapLibre", "Community-Engaged"],
-      detailPage:  "project-tree-equity.html",
+      detailPage:  "projects/project-tree-equity.html",
       featured:    true,
     },
 
@@ -175,7 +165,7 @@ const CONFIG = {
                     American Community Survey estimates propagate through
                     public-health risk models.`,
       tags:        ["R", "GLM", "Monte Carlo", "Research"],
-      detailPage:  "project-acs-uncertainty.html",
+      detailPage:  "projects/project-acs-uncertainty.html",
       featured:    true,
     },
 
@@ -189,7 +179,7 @@ const CONFIG = {
                     traffic-accident data in Gainesville, Florida, with
                     an interactive bandwidth control.`,
       tags:        ["QGIS", "Python", "Leaflet", "KDE"],
-      detailPage:  "project-kde-traffic.html",
+      detailPage:  "projects/project-kde-traffic.html",
       featured:    true,
     },
 
@@ -204,7 +194,7 @@ const CONFIG = {
                     insurance maps into a single cloud-optimized GeoTIFF
                     for use in archival research.`,
       tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
-      detailPage:  "project-sanborn-mosaic.html",
+      detailPage:  "projects/project-sanborn-mosaic.html",
       featured:    false,
     },
 
