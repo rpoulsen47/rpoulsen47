@@ -48,16 +48,11 @@ const CONFIG = {
   // To split into paragraphs, use \n\n between them.
   // =========================================================
 
-  longBio: `I'm Ryan, a senior at the University of Richmond majoring in Environmental Studies and Geography in the Class of 2027. I enjoy making maps!
-
-            At school, I work as an undergraduate student research fellow with Dr. Stephanie Spera investigating the effects of climate change on the timing of Fall foliage in National Parks across the Eastern US.
-
-            This summer, I am a participant in the NASA EarthRISE Developers Academy at Colorado location in Fort Collins. I'm working on a project mapping aspen forest change after drought and wildfire!
-
-            In summer 2024, I was an intern with Texas Parks and Wildlife updaing the Texas Ecological Mapping systems landcover map.
-
+  longBio: `Hey! I'm Ryan, a senior at the University of Richmond majoring in Environmental Studies and Geography in the Class of 2027. I enjoy making maps!\n
+            At school, I work as an undergraduate student research fellow with Dr. Stephanie Spera investigating the effects of climate change on the timing of Fall foliage in National Parks across the Eastern US.\n
+            This summer, I am a participant in the NASA EarthRISE Developers Academy at Colorado location in Fort Collins. I'm working on a project mapping aspen forest change after drought and wildfire!\n
+            In summer 2024, I was an intern with Texas Parks and Wildlife updaing the Texas Ecological Mapping systems landcover map.\n
             When not troubleshooting code or making maps, I'm likely outdoors hiking or birdwatching, taking photos on my film camera, or training for a triathlon.`,
-
 
   // =========================================================
   // EDUCATION — used on the About page
@@ -93,17 +88,17 @@ const CONFIG = {
       blurb:   "Research on the effects of climate change on the timing of fall foliage under Dr. Stephanie A. Spera."
     },
     {
-      role:    "Landscape Ecology Intern",
-      org:     "Texas Parks and Wildlife",
-      years:   "Summer 2025",
-      blurb:   "Assisted in the updates to the statewide Ecological Mapping Systems landcover map."
-    },
-    {
       role:    "Remote Sensing Analyst",
       org:     "NASA EarthRISE Developers Academy",
       years:   "Summer 2026",
       blurb:   "Researching the effects of wildfire and drought on aspen forest extent and health."
     },
+    {
+      role:    "Landscape Ecology Intern",
+      org:     "Texas Parks and Wildlife",
+      years:   "Summer 2025",
+      blurb:   "Assisted in the updates to the statewide Ecological Mapping Systems landcover map."
+    }
   ],
 
 
@@ -140,64 +135,28 @@ const CONFIG = {
   // =========================================================
 
   projects: [
-
     {
-      slug:        "tree-equity",
-      title:       "Tree Equity in Jackson Ward",
-      year:        "2025",
-      type:        "Community Mapping",
-      thumbnail:   "images/projects/tree-equity-thumb.svg",
-      blurb:       `A block-by-block analysis of canopy gaps in a historically
-                    redlined Richmond neighborhood, built with the Historic
-                    Jackson Ward Association.`,
-      tags:        ["ArcGIS Pro", "Python", "MapLibre", "Community-Engaged"],
+      slug:        "snp-fall-foliage",
+      title:       "Fall Foliage in National Parks",
+      year:        "2024-2026",
+      type:        "Research",
+      thumbnail:   "images/logos/leif.png",
+      blurb:       ``,
+      tags:        ["Remote Sensing", "MODIS", "Python"],
+      detailPage:  "projects/snp-fall-foliage.html",
+      featured:    true,
+    },
+    {
+      slug:        "anp-fall-foliage",
+      title:       "Visitor Perceptions of Climate Change in Acadia National Park",
+      year:        "2024-2026",
+      type:        "Research",
+      thumbnail:   "images/logos/leif.png",
+      blurb:       ``,
+      tags:        ["Outdoor Recreation", "Visitor Surveys", "Python"],
       detailPage:  "projects/project-tree-equity.html",
       featured:    true,
     },
-
-    {
-      slug:        "acs-uncertainty",
-      title:       "Hidden Uncertainty in ACS Health Data",
-      year:        "2025",
-      type:        "Spatial Statistics",
-      thumbnail:   "images/projects/acs-uncertainty-thumb.svg",
-      blurb:       `A simulation study showing how margins of error in
-                    American Community Survey estimates propagate through
-                    public-health risk models.`,
-      tags:        ["R", "GLM", "Monte Carlo", "Research"],
-      detailPage:  "projects/project-acs-uncertainty.html",
-      featured:    true,
-    },
-
-    {
-      slug:        "kde-traffic",
-      title:       "Where the Crashes Cluster",
-      year:        "2024",
-      type:        "Spatial Analysis",
-      thumbnail:   "images/projects/kde-traffic-thumb.svg",
-      blurb:       `A kernel density analysis of three years of
-                    traffic-accident data in Gainesville, Florida, with
-                    an interactive bandwidth control.`,
-      tags:        ["QGIS", "Python", "Leaflet", "KDE"],
-      detailPage:  "projects/project-kde-traffic.html",
-      featured:    true,
-    },
-
-    // Example of a non-featured project (will appear on /projects only):
-    {
-      slug:        "sanborn-mosaic",
-      title:       "Stitching the Sanborn Atlases of Richmond",
-      year:        "2023",
-      type:        "Historical GIS",
-      thumbnail:   "images/projects/sanborn-mosaic-thumb.svg",
-      blurb:       `Georeferenced and mosaicked a set of 1905 Sanborn fire
-                    insurance maps into a single cloud-optimized GeoTIFF
-                    for use in archival research.`,
-      tags:        ["ArcGIS Pro", "GDAL", "COG", "Archives"],
-      detailPage:  "projects/project-sanborn-mosaic.html",
-      featured:    false,
-    },
-
   ],
 
 
@@ -205,9 +164,7 @@ const CONFIG = {
   // CONTACT PAGE — what to say on the contact page
   // =========================================================
 
-  contactLead: `I am open to conversations about GIS, cartography,
-                community-engaged research, and full-time roles
-                starting summer 2026.`,
+  contactLead: ``,
 
 
   // =========================================================
