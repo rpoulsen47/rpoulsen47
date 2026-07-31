@@ -140,15 +140,25 @@
         '</div>' +
         '<div class="project-body">' +
           '<div class="project-meta">' +
+            '<div class="project-logo">' +
+              (p.logo
+                ? '<img src="' + escapeHTML(p.logo) + '" alt="' + escapeHTML(p.title || '') + '" loading="lazy" />'
+                : '') +
+            '</div>' +
             '<span class="project-year">' + escapeHTML(p.year || '') + '</span>' +
             '<span class="project-type">' + escapeHTML(p.type || '') + '</span>' +
           '</div>' +
           '<h3 class="project-title">' + escapeHTML(p.title || '') + '</h3>' +
           '<p class="project-blurb">' + escapeHTML(clean(p.blurb || '')) + '</p>' +
           '<ul class="project-tags">' + tags + '</ul>' +
-          '<span class="project-cta">Read case study →</span>' +
+          '<span class="project-cta">Learn more →</span>' +
         '</div>' +
       '</a>'
+      // '<div class="project-logo">' +
+      //   (p.logo
+      //     ? '<img src="' + escapeHTML(p.logo) + '" alt="' + escapeHTML(p.title || '') + '" loading="lazy" />'
+      //     : '') +
+      // '</div>'
     );
   }
 

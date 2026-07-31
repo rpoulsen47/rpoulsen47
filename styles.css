@@ -422,6 +422,7 @@ section {
 .project-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   gap: 50px;
   align-items: start;
   text-decoration: none;
@@ -441,9 +442,9 @@ section {
 
 .project-image {
   aspect-ratio: 4 / 3;
-  overflow: hidden;
-  border: 1px solid var(--rule);
-  background: var(--bg-alt);
+  /* overflow: hidden; */
+  /* border: 1px solid var(--rule);
+  background: var(--bg-alt); */
   position: relative;
 }
 
@@ -451,24 +452,54 @@ section {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, transparent 0%, transparent 60%, rgba(0, 0, 0, 0.04) 100%);
+  /* background: linear-gradient(135deg, transparent 0%, transparent 60%, rgba(0, 0, 0, 0.04) 100%); */
   pointer-events: none;
 }
 
 .project-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .project-card:hover .project-image img { transform: scale(1.03); }
 
+.project-card:nth-child(even) .project-logo { order: 4; }
+
+.project-logo {
+  /* aspect-ratio: 4 / 3; */
+  /* overflow: hidden; */
+  /* border: 1px solid var(--rule);
+  background: var(--bg-alt); */
+  position: relative;
+  align-self: start;
+  align-items: start;
+  justify-content: start;
+}
+
+/* .project-logo::after {
+  content: '';
+  position: relative;
+  margin-left: 16px;
+  pointer-events: none;
+} */
+
+.project-logo img {
+  width: 15%;
+  height: 15%;
+  object-fit: contain;
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.project-card:hover .project-logo img { transform: scale(1.03); }
+
 .project-body { padding-top: 8px; }
 
 .project-meta {
   display: flex;
-  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
   font-family: 'JetBrains Mono', monospace;
   font-size: 12px;
   letter-spacing: 0.06em;
@@ -483,7 +514,10 @@ section {
   color: var(--rule);
 }
 
-.project-type { color: var(--accent); }
+.project-type::after { 
+  margin-left: 16px;
+  color: var(--accent);
+}
 
 .project-title {
   font-family: 'Fraunces', Georgia, serif;
