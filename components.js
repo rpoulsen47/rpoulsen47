@@ -210,6 +210,11 @@
       return (
         '<li class="cv-row">' +
           '<div class="cv-row-time">' + escapeHTML(e.years || '') + '</div>' +
+          '<div class="cv-logo">' +
+              (e.logo
+                ? '<img src="' + escapeHTML(e.logo) + '" alt="' + escapeHTML(e.org || '') + '" loading="lazy" />'
+                : '') +
+          '</div>' +
           '<div class="cv-row-body">' +
             '<div class="cv-row-title">' + escapeHTML(e.role || '') + '</div>' +
             '<div class="cv-row-org">'   + escapeHTML(e.org || '') + '</div>' +

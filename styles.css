@@ -42,7 +42,7 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--bg);
   color: var(--ink);
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Public Sans', system-ui;
   font-size: 17px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -102,7 +102,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'DM Mono', monospace;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 13px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -113,8 +113,9 @@ img { max-width: 100%; display: block; }
 .header-nav {
   display: flex;
   gap: 36px;
-  font-family: 'DM Mono', monospace;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 13px;
+  font-weight: 400;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -125,6 +126,7 @@ img { max-width: 100%; display: block; }
 }
 
 .header-nav a.is-active {
+  font-weight: 800;
   color: var(--accent);
 }
 
@@ -150,7 +152,7 @@ img { max-width: 100%; display: block; }
 }
 
 .page-eyebrow {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -159,8 +161,8 @@ img { max-width: 100%; display: block; }
 }
 
 .page-title {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: 500;
+  font-family: 'Stack Sans Text', system-ui;
+  font-weight: 700;
   font-size: clamp(44px, 7vw, 88px);
   line-height: 1.0;
   letter-spacing: -0.025em;
@@ -170,9 +172,9 @@ img { max-width: 100%; display: block; }
 }
 
 .page-lead {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 24px;
   line-height: 1.45;
   color: var(--ink-soft);
@@ -197,7 +199,7 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-eyebrow {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Jura', monospace;
   font-size: 12px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -206,8 +208,8 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-name {
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: 500;
+  font-family: 'Stack Sans Text', system-ui;
+  font-weight: 800;
   font-size: clamp(56px, 9vw, 124px);
   line-height: 0.92;
   letter-spacing: -0.03em;
@@ -217,9 +219,9 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-tagline {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-weight: 400;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 24px;
   line-height: 1.4;
   color: var(--ink-soft);
@@ -228,7 +230,7 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-location {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Jura', monospace;
   font-size: 13px;
   letter-spacing: 0.05em;
   color: var(--ink-faint);
@@ -242,7 +244,7 @@ img { max-width: 100%; display: block; }
 .hero-photo {
   aspect-ratio: 4 / 5;
   overflow: hidden;
-  border: 1px solid var(--rule);
+  /* border: 1px solid var(--rule); */
   background: var(--bg-alt);
   position: relative;
 }
@@ -294,14 +296,14 @@ section {
 }
 
 /* .section-num {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 13px;
   letter-spacing: 0.08em;
   color: var(--accent);
 } */
 
 .section-title {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-weight: 500;
   font-size: 32px;
   letter-spacing: -0.015em;
@@ -310,7 +312,7 @@ section {
 }
 
 .section-aside {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 12px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -324,7 +326,7 @@ section {
    INTRO + CONTACT TEASE (homepage)
    ============================================================ */
 .intro-text {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Public Sans', system-ui;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.5;
@@ -334,12 +336,12 @@ section {
 }
 
 .intro-cta {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Public Sans', system-ui;
   font-size: 13px;
 }
 
 .contact-lead {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-weight: 400;
   font-style: italic;
   font-size: 26px;
@@ -378,7 +380,7 @@ section {
   color: var(--ink);
 }
 
-.project-card:nth-child(even) .project-image { order: 2; }
+/* .project-card:nth-child(even) .project-image { order: 2; } */
 
 .project-image {
   aspect-ratio: 4 / 3;
@@ -405,10 +407,9 @@ section {
 
 .project-card:hover .project-image img { transform: scale(1.03); }
 
-.project-card:nth-child(even) .project-logo { order: 4; }
+/* .project-card:nth-child(even) .project-logo { order: 4; } */
 
 .project-logo {
-  /* aspect-ratio: 4 / 3; */
   /* overflow: hidden; */
   /* border: 1px solid var(--rule);
   background: var(--bg-alt); */
@@ -440,7 +441,7 @@ section {
   display: flex;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  font-family: 'DM Mono', monospace;
+  font-family: 'Jura', monospace;
   font-size: 12px;
   letter-spacing: 0.06em;
   color: var(--ink-faint);
@@ -460,7 +461,7 @@ section {
 }
 
 .project-title {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-weight: 500;
   font-size: 32px;
   line-height: 1.15;
@@ -488,7 +489,7 @@ section {
 }
 
 .project-tags li {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Jura', monospace;
   font-size: 11px;
   padding: 4px 9px;
   border: 1px solid var(--rule);
@@ -498,7 +499,7 @@ section {
 
 .project-cta {
   display: inline-block;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Public Sans', system-ui;
   font-size: 13px;
   font-weight: 500;
   color: var(--accent);
@@ -521,7 +522,7 @@ section {
 .about-photo {
   aspect-ratio: 4 / 5;
   overflow: hidden;
-  border: 1px solid var(--rule);
+  /* border: 1px solid var(--rule); */
   background: var(--bg-alt);
   position: sticky;
   top: 100px;
@@ -535,7 +536,7 @@ section {
 }
 
 .about-prose p {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Public Sans', system-ui;
   font-weight: 400;
   font-size: 21px;
   line-height: 1.55;
@@ -544,7 +545,7 @@ section {
 }
 
 .about-prose p:first-child::first-letter {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 5em;
   line-height: 0.85;
   float: left;
@@ -556,7 +557,9 @@ section {
 
 /* CV-style lists (Experience, Education) */
 .cv-list {
-  list-style: none;
+  list-style: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .cv-row {
@@ -570,7 +573,7 @@ section {
 .cv-row:last-child { border-bottom: none; }
 
 .cv-row-time {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Jura', monospace;
   font-size: 12px;
   letter-spacing: 0.06em;
   color: var(--ink-faint);
@@ -579,7 +582,7 @@ section {
 }
 
 .cv-row-title {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-weight: 500;
   font-size: 22px;
   line-height: 1.2;
@@ -599,6 +602,18 @@ section {
   line-height: 1.5;
 }
 
+.cv-logo {
+  position: relative;
+  align-self: start;
+  align-items: start;
+  justify-content: start;
+}
+
+.cv-logo img {
+  width: 15%;
+  height: 15%;
+  object-fit: contain;
+}
 
 /* Skills grouped */
 .skill-groups {
@@ -608,7 +623,7 @@ section {
 }
 
 .skill-group-label {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -626,7 +641,7 @@ section {
 }
 
 .skill-group-list li {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Jura', monospace;
   font-size: 12px;
   padding: 5px 10px;
   background: var(--bg-alt);
@@ -654,7 +669,7 @@ section {
 }
 
 .contact-links li a {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Jura', monospace;
   font-size: 14px;
   display: flex;
   justify-content: space-between;
@@ -687,7 +702,7 @@ section {
 }
 
 .project-subtitle {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-weight: 400;
   font-style: italic;
   font-size: 24px;
@@ -714,7 +729,7 @@ section {
 }
 
 .meta-label {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -747,7 +762,7 @@ section {
 
 .project-hero figcaption,
 .prose-figure figcaption {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -764,7 +779,7 @@ section {
 }
 
 .prose-h2 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Stack Sans Text', system-ui;
   font-weight: 500;
   font-size: 28px;
   letter-spacing: -0.015em;
@@ -824,7 +839,7 @@ section {
    LINK STYLES
    ============================================================ */
 .link-primary {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Public Sans', monospace;
   font-size: 13px;
   font-weight: 500;
   color: var(--accent);
@@ -853,7 +868,7 @@ section {
   padding: 28px 48px;
   display: flex;
   justify-content: space-between;
-  font-family: 'DM Mono', monospace;
+  font-family: 'Jura', monospace;
   font-size: 12px;
   letter-spacing: 0.04em;
   color: var(--ink-faint);

@@ -85,19 +85,22 @@ const CONFIG = {
       role:    "Undergraduate Research Fellow",
       org:     "Spatial Analysis Lab, University of Richmond",
       years:   "May 2024 - present",
-      blurb:   "Research on the effects of climate change on the timing of fall foliage under Dr. Stephanie A. Spera."
+      blurb:   "Research on the effects of climate change on the timing of fall foliage under Dr. Stephanie A. Spera.",
+      logo:    "images/logos/leif.png"
     },
     {
       role:    "Remote Sensing Analyst",
       org:     "NASA EarthRISE Developers Academy",
       years:   "Summer 2026",
-      blurb:   "Researching the effects of wildfire and drought on aspen forest extent and health."
+      blurb:   "Researching the effects of wildfire and drought on aspen forest extent and health.",
+      logo:    "images/logos/nasa-logo.png"
     },
     {
       role:    "Landscape Ecology Intern",
       org:     "Texas Parks and Wildlife",
       years:   "Summer 2025",
-      blurb:   "Assisted in the updates to the statewide Ecological Mapping Systems landcover map."
+      blurb:   "Assisted in the updates to the statewide Ecological Mapping Systems landcover map.",
+      logo:    "images/logos/tpwd_green_logo.png"
     }
   ],
 
@@ -142,7 +145,7 @@ const CONFIG = {
       year:        "2026",
       type:        "Research",
       thumbnail:   "images/projects/nps-fall-foliage/shenandoah.jpg",
-      blurb:       ``,
+      blurb:       `University of Richmond`,
       tags:        ["Remote Sensing", "MODIS", "Python"],
       detailPage:  "projects/snp-fall-foliage.html",
       featured:    true,
@@ -154,23 +157,47 @@ const CONFIG = {
       year:        "2026",
       type:        "Research",
       thumbnail:   "images/projects/anp-fall-foliage/acadia.jpg",
-      blurb:       ``,
+      blurb:       `University of Richmond`,
       tags:        ["Outdoor Recreation", "Visitor Surveys", "Python"],
       detailPage:  "projects/anp-fall-foliage.html",
-      featured:    true,
+      featured:    false,
     },
     {
       slug:        "tpwd-lep",
       logo:        "images/logos/tpwd_green_logo.jpg",
-      title:       "Texas Parks and Wildlife Summer Internship ",
+      title:       "Texas Parks and Wildlife Summer Internship",
       year:        "2025",
       type:        "Internship",
       thumbnail:   "images/projects/tpwd-lep/tpwd.jpg",
-      blurb:       ``,
+      blurb:       `Texas Parks and Wildlife Landscape Ecology Program`,
       tags:        ["LiDAR", "Global Mapper Pro", "Google Earth Engine"],
+      detailPage:  "projects/anp-fall-foliage.html",
+      featured:    false,
+    },
+    {
+      slug:        "nasa-erda",
+      logo:        "images/logos/nasa-logo.png",
+      title:       "North Central Colorado Wildland Fires",
+      year:        "2026",
+      type:        "Research",
+      thumbnail:   "images/projects/tpwd-lep/tpwd.jpg",
+      blurb:       `NASA EarthRISE Developers Academy`,
+      tags:        ["QGIS", "LandTrendr", "Random Forest", "R"],
       detailPage:  "projects/anp-fall-foliage.html",
       featured:    true,
     },
+    {
+      slug:        "sfs",
+      logo:        "images/logos/sfs.jpg",
+      title:       "Pali Aike National Park Geomorphological Mapping",
+      year:        "2026",
+      type:        "Research",
+      thumbnail:   "images/projects/tpwd-lep/tpwd.jpg",
+      blurb:       `School for Field Studies Chile`,
+      tags:        ["QGIS", "Field Methods", "Geological Mapping"],
+      detailPage:  "projects/anp-fall-foliage.html",
+      featured:    true,
+    }
   ],
 
 
