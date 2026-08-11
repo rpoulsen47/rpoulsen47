@@ -22,7 +22,7 @@ const CONFIG = {
   // =========================================================
 
   name: "Ryan Poulsen",
-  tagline: "NASA ERDA Developer",
+  tagline: "Remote Sensing Analyst",
   location: "Richmond, Virginia",
 
   email:    "ryan.poulsen47@gmail.com",
@@ -62,7 +62,7 @@ const CONFIG = {
   education: [
     {
       school: "University of Richmond",
-      degree: "B.A., Geography & Data Science",
+      degree: "B.S., Geography & Environmental Studies",
       year:   "Expected May 2027",
       note:   ""
     },
@@ -82,25 +82,32 @@ const CONFIG = {
 
   experience: [
     {
+      role:    "Spatial Analysis Lab Intern",
+      org:     "Spatial Analysis Lab, University of Richmond",
+      years:   "August 2024 - present",
+      blurb:   "Support for students and professors in the geography department through testing and updating GIS labs for classes, creating maps for faculty research projects, and general GIS helpdesk support. Teaching assistant for the GEOG360 Environmental Remote Sensing course in Fall 2024.",
+      logo:    "images/logos/ur_shield.png"
+    },
+    {
       role:    "Undergraduate Research Fellow",
       org:     "Spatial Analysis Lab, University of Richmond",
       years:   "May 2024 - present",
-      blurb:   "Research on the effects of climate change on the timing of fall foliage under Dr. Stephanie A. Spera.",
-      logo:    "images/logos/leif.png"
+      blurb:   "Analysis of temporal changes in fall foliage patterns in Shenandoah National Park from 2000-2025 with Dr. Stephanie Spera using quantitative and remote sensing methods in Python and ArcGIS Pro with MODIS imagery, NOAA weather data, and archival fall foliage data. Interpreted survey data about climate change risk perceptions of fall-season visitors to Acadia National Park using statistical analyses in Python to analyze data and wrote an article which has been submitted for publication.",
+      logo:    "images/logos/ur_shield.png"
     },
     {
       role:    "Remote Sensing Analyst",
       org:     "NASA EarthRISE Developers Academy",
       years:   "Summer 2026",
-      blurb:   "Researching the effects of wildfire and drought on aspen forest extent and health.",
+      blurb:   "Analyzed aspen extent change after the 2020 wildfires in Northern Colorado by mapping and comparing pre- and post-fire aspen presence in QGIS. Performed a random forest model in R with environmental variables as predictors to understand the most influential factors in aspen extent change in Northern Colorado. Worked to understand the impacts of long-term drought conditions on aspen forests in Western Colorado using the LandTrendr algorithm in Google Earth Engine. Strengthened scientific communication skills through presentations, paper-writing, and communication with partners.",
       logo:    "images/logos/nasa-logo.png"
     },
     {
       role:    "Landscape Ecology Intern",
       org:     "Texas Parks and Wildlife",
       years:   "Summer 2025",
-      blurb:   "Assisted in the updates to the statewide Ecological Mapping Systems landcover map.",
-      logo:    "images/logos/tpwd_green_logo.png"
+      blurb:   "Worked on updates the Post-Oak Savannah and Blackland Prairie ecoregions of the Texas Ecological Mapping Systems landcover map by interpreting satellite imagery with field-collected vegetation observations in ArcGIS Pro, processing LiDAR data with Global Mapper Pro to derive canopy height, and updating landcover classifiers in GEE. Surveyed vegetation in the field to improve accuracy of the land cover classification model.",
+      logo:    "images/logos/tpwd_green_logo.jpg"
     }
   ],
 
@@ -113,11 +120,15 @@ const CONFIG = {
   skillGroups: [
     {
       label: "Desktop GIS",
-      skills: ["ArcGIS Pro", "QGIS", "ArcGIS Online"]
+      skills: ["QGIS", "ArcGIS Pro", "ArcGIS Online", "Global Mapper Pro"]
     },
     {
       label: "Programming",
       skills: ["Python", "R", "JavaScript (GEE)"]
+    },
+    {
+      label: "Remote Sensing",
+      skills: ["Landsat", "MODIS", "Sentinel", "LiDAR"]
     }
   ],
 
@@ -140,7 +151,7 @@ const CONFIG = {
   projects: [
     {
       slug:        "snp-fall-foliage",
-      logo:        "images/logos/leif.png",
+      logo:        "images/logos/ur_shield.png",
       title:       "The Effects of Climate Change on the Timing of Fall Foliage in Shenandoah National Park",
       year:        "2026",
       type:        "Research",
@@ -152,7 +163,7 @@ const CONFIG = {
     },
     {
       slug:        "anp-fall-foliage",
-      logo:        "images/logos/leif.png",
+      logo:        "images/logos/ur_shield.png",
       title:       "Leaf-Peeping, Climate Risk Perceptions, and Recreational Tourism in Acadia National Park",
       year:        "2026",
       type:        "Research",
@@ -162,25 +173,25 @@ const CONFIG = {
       detailPage:  "projects/anp-fall-foliage.html",
       featured:    false,
     },
-    {
-      slug:        "tpwd-lep",
-      logo:        "images/logos/tpwd_green_logo.jpg",
-      title:       "Texas Parks and Wildlife Summer Internship",
-      year:        "2025",
-      type:        "Internship",
-      thumbnail:   "images/projects/tpwd-lep/tpwd.jpg",
-      blurb:       `Texas Parks and Wildlife Landscape Ecology Program`,
-      tags:        ["LiDAR", "Global Mapper Pro", "Google Earth Engine"],
-      detailPage:  "projects/anp-fall-foliage.html",
-      featured:    false,
-    },
+    // {
+    //   slug:        "tpwd-lep",
+    //   logo:        "images/logos/tpwd_green_logo.jpg",
+    //   title:       "Texas Parks and Wildlife Summer Internship",
+    //   year:        "2025",
+    //   type:        "Internship",
+    //   thumbnail:   "images/projects/tpwd-lep/posbp-lidar-tx.png",
+    //   blurb:       `Texas Parks and Wildlife Landscape Ecology Program`,
+    //   tags:        ["LiDAR", "Global Mapper Pro", "Google Earth Engine"],
+    //   detailPage:  "projects/anp-fall-foliage.html",
+    //   featured:    false,
+    // },
     {
       slug:        "nasa-erda",
       logo:        "images/logos/nasa-logo.png",
       title:       "North Central Colorado Wildland Fires",
       year:        "2026",
       type:        "Research",
-      thumbnail:   "images/projects/tpwd-lep/tpwd.jpg",
+      thumbnail:   "images/projects/erda-wildland-fires/study-area.png",
       blurb:       `NASA EarthRISE Developers Academy`,
       tags:        ["QGIS", "LandTrendr", "Random Forest", "R"],
       detailPage:  "projects/anp-fall-foliage.html",
@@ -192,7 +203,7 @@ const CONFIG = {
       title:       "Pali Aike National Park Geomorphological Mapping",
       year:        "2026",
       type:        "Research",
-      thumbnail:   "images/projects/tpwd-lep/tpwd.jpg",
+      thumbnail:   "images/projects/sfs/geomap-pa-es.png",
       blurb:       `School for Field Studies Chile`,
       tags:        ["QGIS", "Field Methods", "Geological Mapping"],
       detailPage:  "projects/anp-fall-foliage.html",

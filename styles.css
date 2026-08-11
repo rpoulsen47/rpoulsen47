@@ -495,7 +495,10 @@ section {
   border: 1px solid var(--rule);
   color: var(--ink-soft);
   letter-spacing: 0.03em;
+  background: var(--bg-alt);
 }
+
+.project-card:hover .project-tags li { color: var(--accent); border-color: var(--accent);}
 
 .project-cta {
   display: inline-block;
@@ -563,9 +566,11 @@ section {
 }
 
 .cv-row {
+  /* display: inline-grid; */
   display: grid;
+  /* display: grid; */
   grid-template-columns: 200px 1fr;
-  gap: 30px;
+  gap: 15px;
   padding: 22px 0;
   border-bottom: 1px solid var(--rule);
 }
@@ -577,8 +582,10 @@ section {
   font-size: 12px;
   letter-spacing: 0.06em;
   color: var(--ink-faint);
-  padding-top: 4px;
+  /* padding-top: 4px; */
   text-transform: uppercase;
+  /* justify-content: flex-start; */
+  order: 1;
 }
 
 .cv-row-title {
@@ -588,12 +595,16 @@ section {
   line-height: 1.2;
   color: var(--ink);
   margin-bottom: 6px;
+  justify-content: flex-start;
+  order: 2;
 }
 
 .cv-row-org {
   font-size: 15px;
   color: var(--ink-soft);
   margin-bottom: 8px;
+  justify-content: flex-start;
+  order: 3;
 }
 
 .cv-row-note {
@@ -607,11 +618,12 @@ section {
   align-self: start;
   align-items: start;
   justify-content: start;
+  order: 0;
 }
 
 .cv-logo img {
-  width: 15%;
-  height: 15%;
+  width: 50%;
+  height: 50%;
   object-fit: contain;
 }
 
