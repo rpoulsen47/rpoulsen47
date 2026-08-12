@@ -97,7 +97,7 @@ const CONFIG = {
     },
     {
       role:    "Remote Sensing Analyst",
-      org:     "NASA EarthRISE Developers Academy",
+      org:     "NASA EarthRISE Developers Academy | Analytical Mechanics Associates",
       years:   "Summer 2026",
       blurb:   "Analyzed aspen extent change after the 2020 wildfires in Northern Colorado by mapping and comparing pre- and post-fire aspen presence in QGIS. Performed a random forest model in R with environmental variables as predictors to understand the most influential factors in aspen extent change in Northern Colorado. Worked to understand the impacts of long-term drought conditions on aspen forests in Western Colorado using the LandTrendr algorithm in Google Earth Engine. Strengthened scientific communication skills through presentations, paper-writing, and communication with partners.",
       logo:    "images/logos/nasa-logo.png"
@@ -158,7 +158,7 @@ const CONFIG = {
       thumbnail:   "images/projects/nps-fall-foliage/shenandoah.jpg",
       blurb:       `University of Richmond`,
       tags:        ["Remote Sensing", "MODIS", "Python"],
-      detailPage:  "projects/snp-fall-foliage.html",
+      detailPage:  "snp-fall-foliage.html",
       featured:    true,
     },
     {
@@ -170,7 +170,7 @@ const CONFIG = {
       thumbnail:   "images/projects/anp-fall-foliage/acadia.jpg",
       blurb:       `University of Richmond`,
       tags:        ["Outdoor Recreation", "Visitor Surveys", "Python"],
-      detailPage:  "projects/anp-fall-foliage.html",
+      detailPage:  "anp-fall-foliage.html",
       featured:    false,
     },
     // {
@@ -194,7 +194,7 @@ const CONFIG = {
       thumbnail:   "images/projects/erda-wildland-fires/study-area.png",
       blurb:       `NASA EarthRISE Developers Academy`,
       tags:        ["QGIS", "LandTrendr", "Random Forest", "R"],
-      detailPage:  "projects/anp-fall-foliage.html",
+      detailPage:  "nasa-erda.html",
       featured:    true,
     },
     {
@@ -206,7 +206,7 @@ const CONFIG = {
       thumbnail:   "images/projects/sfs/geomap-pa-es.png",
       blurb:       `School for Field Studies Chile`,
       tags:        ["QGIS", "Field Methods", "Geological Mapping"],
-      detailPage:  "projects/anp-fall-foliage.html",
+      detailPage:  "sfs-pali-aike.html",
       featured:    true,
     }
   ],
