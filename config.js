@@ -38,8 +38,8 @@ const CONFIG = {
   // 1-2 sentences. Keep it punchy.
   // =========================================================
 
-  shortBio: `Senior at the University of Richmond studying Geography
-             and Environmental Studies.`,
+  shortBio: `I'm Ryan, a senior at the University of Richmond majoring in Environmental Studies and Geography.
+            When not troubleshooting code or making maps, I'm likely outdoors hiking or birdwatching, taking photos on my film camera, or training for a triathlon.`,
 
 
   // =========================================================
@@ -158,8 +158,8 @@ const CONFIG = {
       thumbnail:   "images/projects/nps-fall-foliage/shenandoah.jpg",
       blurb:       `University of Richmond`,
       tags:        ["Remote Sensing", "MODIS", "Python"],
-      detailPage:  "snp-fall-foliage.html",
-      featured:    true,
+      detailPage:  "#",
+      featured:    false,
     },
     {
       slug:        "anp-fall-foliage",
@@ -170,7 +170,7 @@ const CONFIG = {
       thumbnail:   "images/projects/anp-fall-foliage/acadia.jpg",
       blurb:       `University of Richmond`,
       tags:        ["Outdoor Recreation", "Visitor Surveys", "Python"],
-      detailPage:  "anp-fall-foliage.html",
+      detailPage:  "#",
       featured:    false,
     },
     // {
@@ -206,8 +206,8 @@ const CONFIG = {
       thumbnail:   "images/projects/sfs/geomap-pa-es.png",
       blurb:       `School for Field Studies Chile`,
       tags:        ["QGIS", "Field Methods", "Geological Mapping"],
-      detailPage:  "sfs-pali-aike.html",
-      featured:    true,
+      detailPage:  "#",
+      featured:    false,
     }
   ],
 
