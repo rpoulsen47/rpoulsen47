@@ -22,7 +22,7 @@ const CONFIG = {
   // =========================================================
 
   name: "Ryan Poulsen",
-  tagline: "Remote Sensing Analyst",
+  tagline: "Remote Sensing Analyst / Satellite Image Explorer",
   location: "Richmond, Virginia",
 
   email:    "ryan.poulsen47@gmail.com",

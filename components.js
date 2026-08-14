@@ -60,14 +60,15 @@
     host.innerHTML =
       '<div class="header-inner">' +
         '<a class="header-mark" href="index.html">' +
-          '<span class="mark-glyph">◐</span>' +
+          // '<span class="mark-glyph">◐</span>' +
           '<span class="mark-text">' + escapeHTML(CONFIG.name || '') + '</span>' +
         '</a>' +
         '<nav class="header-nav">' +
           '<a href="index.html"     class="' + active('index.html') + '">Home</a>' +
           '<a href="projects.html"  class="' + active('projects.html') + '">Work</a>' +
+          '<a href="gallery.html"  class="' + active('gallery.html') + '">Gallery</a>' +
           '<a href="about.html"     class="' + active('about.html') + '">About</a>' +
-          '<a href="contact.html"   class="' + active('contact.html') + '">Contact</a>' +
+          // '<a href="contact.html"   class="' + active('contact.html') + '">Contact</a>' +
         '</nav>' +
       '</div>';
   }
@@ -86,6 +87,8 @@
       '<div class="footer-inner">' +
         '<span class="footer-copy">&copy; ' + year + ' ' + escapeHTML(CONFIG.name || '') + '</span>' +
         '<span class="footer-built">Built with HTML, CSS, and care.</span>' +
+        // '<nav class="header-nav">' +
+        //   '<a href="contact.html"     class="' + active('contact.html') + '">Contact Me</a>' +
       '</div>';
   }
 
